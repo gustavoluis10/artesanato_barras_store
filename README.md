@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# loja-artesanato
+# artesanato_barras_store
