@@ -176,6 +176,9 @@ GEM
       terrapin (~> 0.6.0)
     paranoia (2.4.1)
       activerecord (>= 4.0, < 5.3)
+    pg (1.0.0)
+    pg (1.0.0-x64-mingw32)
+    pg (1.0.0-x86-mingw32)
     polyamorous (1.3.3)
       activerecord (>= 3.0)
     polyglot (0.3.5)
@@ -311,10 +314,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.3.13)
-    sqlite3 (1.3.13-x64-mingw32)
-    sqlite3 (1.3.13-x86-mingw32)
-    sqlite3 (1.3.13-x86-mswin32-60)
     state_machines (0.5.0)
     state_machines-activemodel (0.5.1)
       activemodel (>= 4.1, < 6.0)
@@ -367,6 +366,7 @@ DEPENDENCIES
   deface
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
@@ -375,11 +375,10 @@ DEPENDENCIES
   solidus_auth_devise
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
